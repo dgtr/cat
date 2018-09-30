@@ -1,0 +1,84 @@
+@font-face {
+  font-weight: 400;
+  font-family: "Oswald";
+  font-style: normal;
+
+  src: url("../fonts/oswald-regular-webfont.woff2") format("woff2"),
+  url("../fonts/oswald-regular-webfont.woff") format("woff");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Arial", "Verdana", sans-serif;
+  color: #444444;
+
+  background-color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-grow: 1;
+  margin: 0 auto;
+  padding: 0 20px;
+  min-height: 67px;
+
+  background-color: #ffffff;
+}
+
+.page-header__logo {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+}
+
+.page-header__logo-image {
+  margin-top: auto;
+  margin-right: 0;
+  margin-bottom: auto;
+  margin-left: 0;
+  padding: 0;
+}
+
+.page-header__text {
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  padding: 0 20px;
+}
+
+.main-nav {
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav__toggle {
+  border: none;
+  background-color: #ffffff ;
+  padding: 0;
+  margin: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 24px;
+  height: 18px;
+  background-image: linear-gradient(#222222 12%, #ffffff 12%, #ffffff 44%, #222222 44%, #222222 56%, #ffffff 56%, #ffffff 88%, #222222 88%);
+}
+
+.main-nav__wrapper {
+  display: none;
+}
